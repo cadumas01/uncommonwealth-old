@@ -1,0 +1,30 @@
+ :root{
+  --charleston-green: #2e3532ff;
+  --antique-ruby: #8b2635ff;
+  --bone: #d9cab3ff;
+  --bronze: #bc8034ff;
+  --steel-teal: #558c8cff;
+}
+
+.Container-outer{
+  background-color: var(--antique-ruby);
+  text-align: center;
+
+
+  min-height: 100vh;
+  min-width: 100vw;
+  justify-content: center;
+
+  padding: 1%;
+
+}
+
+.Container-inner{
+
+}
+
+.Row{
+  justify-content: center;
+  padding: 2%;
+}
+

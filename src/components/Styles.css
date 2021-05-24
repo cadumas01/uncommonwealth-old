@@ -1,0 +1,19 @@
+
+
+.Navbar{
+    text-align: center;
+    border-bottom: black solid 2px;
+    font-size: x-large;
+    align-content: center;
+    width: 100vw;
+    justify-content: center;
+    : var(--bronze)
+}
+
+.Text{
+    min-height: 50vh;
+}
+
+Link{
+    color: var(--bronze)
+}
