@@ -1,21 +1,32 @@
  :root{
-  --charleston-green: #2e3532ff;
-  --antique-ruby: #8b2635ff;
-  --bone: #d9cab3ff;
-  --bronze: #bc8034ff;
-  --steel-teal: #558c8cff;
+   --black: #000000ff;
+   --rich-black-fogra-29: #121217ff;
+   --jet: #313036ff;
+   --gunmetal: #0c2531ff;
+   --dark-sienna: #4f171bff;
 }
+.App{
+    display: flex;
+    flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: var(--rich-black-fogra-29);
+ }
 
 .Container-outer{
-  background-color: var(--antique-ruby);
+  background-color: var(--dark-sienna);
   text-align: center;
+    display: flex;
+    
 
-
-  min-height: 100vh;
-  min-width: 100vw;
+  width: 10%;
+  height: 80%;
   justify-content: center;
 
-  padding: 1%;
+
 
 }
 
@@ -25,6 +36,8 @@
 
 .Row{
   justify-content: center;
-  padding: 2%;
+  margin: 2%;
+  width: 100%;
+    align-content: center;
 }
 

@@ -16,24 +16,18 @@ function App() {
     <div className="App">
 
       <Router>
-          <Container className="Container-outer">
-            <Row className="Row">  <NavigationBar></NavigationBar></Row>
 
+            <NavigationBar></NavigationBar>
+            <Container className="Container-outer">
                   <Switch>
                       <Route exact path ="/" component={Home}/>
                       <Route exact path ="/about" component={About}/>
                       <Route exact path ="/music" component={Music}/>
                   </Switch>
-
-            <Row className="Row">
-              <Col><Button variant="success"> A button?</Button></Col>
-              <Col> <Button  bsStyle="primary" bsSize="xxl" >
-                Button
-              </Button>
-                <MyButton></MyButton>
-                <MyButton></MyButton></Col>
-            </Row>
-          </Container>
+           </Container>
+          <Row className="Row">
+              <Button></Button>
+          </Row>
       </Router>
     </div>
   );

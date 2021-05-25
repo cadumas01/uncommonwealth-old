@@ -6,13 +6,8 @@ import {Link} from "react-router-dom";
 export default class NavigationBar extends Component{
     render(){
         return(
-            <Navbar>
-                <Nav
-                    className="Navbar"
-
-                    //activeKey="/home"
-                    // onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-                >
+            <Navbar className="NavBar">
+                <Nav className="Nav">
                     <Nav.Item
                         className=''>
                         <Nav.Link >
