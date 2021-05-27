@@ -4,27 +4,26 @@
    --jet: #313036ff;
    --gunmetal: #0c2531ff;
    --dark-sienna: #4f171bff;
+   --main-background-color: black;
 }
 .App{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   height: 100vh;
-  align-items: center;
   text-align: center;
-  justify-content: center;
-  background-color: var(--rich-black-fogra-29);
+  background-color: black;
+
  }
 
 .Container-outer{
-  background-color: var(--dark-sienna);
+  background-color: var(--main-background-color);
   text-align: center;
-    display: flex;
-    
+  display: flex;
 
-  width: 10%;
-  height: 80%;
   justify-content: center;
+  margin-top: 2%; /* maybe change to 0 */
+  height: 80%;
 
 
 
@@ -34,10 +33,13 @@
 
 }
 
+
+
+
 .Row{
   justify-content: center;
   margin: 2%;
   width: 100%;
-    align-content: center;
+  align-content: center;
 }
 
