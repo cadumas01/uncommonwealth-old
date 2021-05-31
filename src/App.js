@@ -10,6 +10,7 @@ import Home from './components/Home.js'
 import Music from './components/Music.js'
 import About from './components/About.js'
 import Shop from './components/Shop.js'
+import Footer from './components/Footer.js'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                       <Route exact path ="/shop" component={Shop}/>
                   </Switch>
            </Container>
+           <Footer></Footer>
       </Router>
     </div>
   );

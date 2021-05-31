@@ -5,6 +5,7 @@
    --gunmetal: #0c2531ff;
    --dark-sienna: #4f171bff;
    --main-background-color: black;
+   --backing-font-color: gray;
 }
 .App{
   display: flex;

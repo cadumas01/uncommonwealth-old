@@ -1,11 +1,11 @@
 :root{
-    --NavigationBarHeight: 10%;
+    --NavigationBarHeight: 12%;
 }
 
 
 .NavBar{
 
-    margin-top: 0%;
+    margin: 0%;
     font-size: x-large;
     width: 100%;
     align-items: center;
@@ -19,6 +19,7 @@
     max-height: 20%;
     color: var(--white);
     font-family: "Helvetica", sans-serif ;
+
 }
 
 .Icon{
@@ -33,6 +34,7 @@
 .Row{
     margin: 0;
     max-height: 100%;
+    align-items: center;
 }
 
 
@@ -46,8 +48,9 @@
 
 .NavigationBarContainer{
     height: var(--NavigationBarHeight);
-    margin-top: 0%; /* set margins to 0*/
-    padding: 0px;
+    margin: 0%; /* set margins to 0*/
+    align-items: center;
+    padding:2%;
     border-bottom: var(--dark-sienna) solid 2.5px;
     background-color: var(--rich-black-fogra-29);
 
@@ -68,6 +71,13 @@ p{
     margin-left: 8%;
     font-size: large;
 }
+
+.Footer{
+    font-size: medium;
+    color: var(--backing-font-color);
+    margin: 2%;
+}
+
 .Jumbotron{
     width: 100%;
     color: var(--white);
@@ -77,4 +87,21 @@ p{
 
 .Link{
     color: var(--white);
+}
+
+.AppleMusic{
+    width: 17%;
+    height: auto;
+}
+
+.Spotify{
+    width: 30%;
+    height: auto;
+    margin-left:14%
+}
+
+.MusicHeader{
+    text-align: left;
+    font-size: xx-large;
+    color: white;
 }
