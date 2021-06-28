@@ -18,8 +18,11 @@
 .Text{
     max-height: 20%;
     color: var(--white);
-    font-family: "Helvetica", sans-serif ;
+    font-family: "Helvetica", sans-serif
+}
 
+.Bold{
+    font-weight: bold;
 }
 
 .Icon{
@@ -27,8 +30,22 @@
     max-height: 90%;
     justify-content: center;
     vertical-align: middle;
+}
 
+.FooterIcon{
+    width: 3%;
+    max-height: 90%;
+    justify-content: center;
+    vertical-align: middle;
+    margin-left: 1%;
+    margin-right: 1%;
+}
 
+.MainImage{
+    width: 50%;
+    max-height: 90%;
+    justify-content: center;
+    vertical-align: middle;
 }
 
 .Row{
@@ -51,14 +68,16 @@
     margin: 0%; /* set margins to 0*/
     align-items: center;
     padding:2%;
-    border-bottom: var(--dark-sienna) solid 2.5px;
+    /* border-bottom: var(--dark-sienna) solid 2.5px; */
     background-color: var(--rich-black-fogra-29);
 
 }
 
 h1{
     text-align: left;
+    margin-left: 8%;
     font-size: xx-large;
+    font-weight: bold;
 }
 
 
@@ -67,13 +86,15 @@ h1{
 }
 
 p{
+    margin-top: 1%;
     text-align: left;
     margin-left: 8%;
+    margin-right: 8%;
     font-size: large;
 }
 
 .Footer{
-    font-size: medium;
+    font-size: small;
     color: var(--backing-font-color);
     margin: 2%;
 }
@@ -83,7 +104,11 @@ p{
     color: var(--white);
     font-family: "Helvetica", sans-serif ;
     background-color: var(--main-background-color);
+    margin:0;
+    padding: 1%;
 }
+
+
 
 .Link{
     color: var(--white);

@@ -11,7 +11,7 @@ export default class NavigationBar extends Component{
             <Container fluid className="NavigationBarContainer">
                 <Row className="Row">
                     <Col className="Col col-md-6 my-auto ">
-                        <img src={bandmembers} className="Icon my-auto"/>
+                        <h1 className="Bold Text"> Uncommonwealth </h1>
                     </Col>
                     <Col className="Col col-md-6 my-auto">
                         <Navbar className="NavBar ">
@@ -19,22 +19,22 @@ export default class NavigationBar extends Component{
                                 <Nav.Item
                                     className=''>
                                     <Nav.Link >
-                                        <Link className="Text" to="/">Home</Link>
+                                        <Link className="Text Bold" to="/">HOME</Link>
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link>
-                                        <Link className="Text" to="/music">Music</Link>
+                                        <Link className="Text Bold" to="/music">MUSIC</Link>
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link>
-                                        <Link className="Text" to="/about">About</Link>
+                                        <Link className="Text Bold" to="/about">ABOUT</Link>
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link>
-                                        <Link className="Text" to="/shop">Shop</Link>
+                                        <Link className="Text Bold" to="/shop">SHOP</Link>
                                     </Nav.Link>
                                 </Nav.Item>
                             </Nav>
