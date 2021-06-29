@@ -11,7 +11,7 @@ export default class NavigationBar extends Component{
             <Container fluid className="NavigationBarContainer">
                 <Row className="Row">
                     <Col className="Col col-md-6 my-auto ">
-                        <h1 className="Bold Text"> Uncommonwealth </h1>
+                        <h1 className="Bold Title"> UNCOMMONWEALTH </h1>
                     </Col>
                     <Col className="Col col-md-6 my-auto">
                         <Navbar className="NavBar ">

@@ -21,6 +21,15 @@
     font-family: "Helvetica", sans-serif
 }
 
+.Title{
+    max-height: 30%;
+    color: var(--ucw-red);
+    font-family: "Helvetica", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    border: var(--ucw-red) solid 2.5px;
+}
+
 .Bold{
     font-weight: bold;
 }
@@ -100,12 +109,12 @@ p{
 }
 
 .Jumbotron{
-    width: 100%;
+    width: 80%;
     color: var(--white);
     font-family: "Helvetica", sans-serif ;
     background-color: var(--main-background-color);
     margin:0;
-    padding: 1%;
+    padding: 0%;
 }
 
 
