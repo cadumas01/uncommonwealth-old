@@ -109,7 +109,7 @@ p{
 }
 
 .Jumbotron{
-    width: 80%;
+    width: 70%;
     color: var(--white);
     font-family: "Helvetica", sans-serif ;
     background-color: var(--main-background-color);
