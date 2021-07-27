@@ -3,6 +3,7 @@ import {Button, Jumbotron} from "react-bootstrap";
 import './Styles.css'
 
 
+
 export default class About extends Component {
     render() {
         return (
@@ -36,7 +37,6 @@ export default class About extends Component {
 
                     </div>
                 </p>
-
             </Jumbotron>
 
         )

@@ -9,7 +9,7 @@ import facebook from '../facebookIcon.png'
 export default class About extends Component {
     render() {
         return (
-            <Container>
+            <Container fluid className={"FooterContainer"}>
                 <Row>
                     <Col>
                         <a href="https://www.instagram.com/uncommonwealthband/?hl=en" className="">
@@ -22,7 +22,7 @@ export default class About extends Component {
                 </Row>
                 <Row>
                     <Col>
-                        <p4 className="Footer">
+                        <p4 className="FooterText">
                             Uncommonwealth © 2021, All Rights Reserved.
                         </p4>
                     </Col>

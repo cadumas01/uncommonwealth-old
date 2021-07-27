@@ -13,7 +13,8 @@
   margin: 0 auto;
   height: 100vh;
   text-align: center;
-  background-color: black;
+  background-color: aquamarine;
+
 
  }
 
@@ -23,8 +24,8 @@
   display: flex;
 
   justify-content: center;
-  margin-top: 2%; /* maybe change to 0 */
-  height: 80%;
+  margin: 0%; /* maybe change to 0 */
+  max-height: 80%;
 
 
 
@@ -42,5 +43,10 @@
   margin: 2%;
   width: 100%;
   align-content: center;
+}
+
+.Footer{
+    position: fixed;
+    bottom: 0;
 }
 

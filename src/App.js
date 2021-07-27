@@ -26,7 +26,7 @@ function App() {
                       <Route exact path ="/shop" component={Shop}/>
                   </Switch>
            </Container>
-           <Footer style={{height:"10%"}}></Footer>
+           <Footer fluid className="Footer"></Footer>
       </Router>
     </div>
   );

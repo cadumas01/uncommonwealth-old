@@ -102,14 +102,20 @@ p{
     font-size: large;
 }
 
-.Footer{
+.FooterText{
     font-size: small;
     color: var(--backing-font-color);
-    margin: 2%;
+
+}
+
+.FooterContainer{
+    background-color: var(--red);
+
 }
 
 .Jumbotron{
     width: 70%;
+    max-height: 50%;
     color: var(--white);
     font-family: "Helvetica", sans-serif ;
     background-color: var(--main-background-color);
@@ -139,3 +145,4 @@ p{
     font-size: xx-large;
     color: white;
 }
+
